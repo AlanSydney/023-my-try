@@ -9,7 +9,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>config-server</module>
-        <module>app-config-data</module>
     </modules>
     <name>microservices-demo</name>
     <description>Microservices demo project for Spring Boot</description>
@@ -39,11 +38,7 @@
     <dependencyManagement>
         <dependencies>
             <!-- LOCAL -->
-            <dependency>
-                <groupId>com.microservices.demo</groupId>
-                <artifactId>app-config-data</artifactId>
-                <version>${project.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>com.microservices.demo</groupId>
                 <artifactId>common-config</artifactId>
