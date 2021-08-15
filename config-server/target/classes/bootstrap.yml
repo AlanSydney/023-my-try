@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file://./../config-server-repository
+          uri: file:///home/alan/java-udemy/023-my-try/config-server-repository
     #          default-label: main
     #          username: ****
     #          password: ****
