@@ -9,11 +9,12 @@
         <module>common-config</module>
         <module>twitter-to-kafka-service</module>
         <module>kafka</module>
-        <module>kafka-admin</module>
-        <module>kafka-model</module>
-        <module>kafka-producer</module>
-        <module>kafaka-admin</module>
-        <module>kafka-admin</module>
+        <module>kafka/kafka-admin</module>
+        <module>kafka/kafka-model</module>
+        <module>kafka/kafka-producer</module>
+        <module>kafka/kafaka-admin</module>
+
+
     </modules>
 
     <parent>
