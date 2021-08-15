@@ -18,7 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="023-my-try" options="-parameters" />
+      <module name="023-my-try" options="" />
       <module name="app-config-data" options="-parameters" />
       <module name="common-config" options="-parameters" />
       <module name="config-server" options="-parameters" />
