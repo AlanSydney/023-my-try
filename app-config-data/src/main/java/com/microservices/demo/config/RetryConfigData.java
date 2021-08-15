@@ -9,11 +9,9 @@ import java.util.List;
 @Configuration
 @ConfigurationProperties(prefix = "retry-config")
 public class RetryConfigData {
-    private String bootstrapServers;
-    private String schemaRegistryUrlKey;
-    private String schemaRegistryUrl;
-    private String topicName;
-    private List<String> topicNamesToCreate;
-    private Integer numOfPartitions;
-    private Short replicationFactor;
+    private Long initialIntervalMs;
+    private Long maxIntervalMs;
+    private Double multiplier;
+    private Integer maxAttempts;
+    private Long sleepTimeMs;
 }

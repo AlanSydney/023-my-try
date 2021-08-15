@@ -9,11 +9,10 @@ import java.util.List;
 @Configuration
 @ConfigurationProperties(prefix = "twitter-to-kafka-service")
 public class TwitterToKafkaServiceConfigData {
-    private String bootstrapServers;
-    private String schemaRegistryUrlKey;
-    private String schemaRegistryUrl;
-    private String topicName;
-    private List<String> topicNamesToCreate;
-    private Integer numOfPartitions;
-    private Short replicationFactor;
+    private List<String> twitterKeywords;
+    private String welcomeMessage;
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
 }

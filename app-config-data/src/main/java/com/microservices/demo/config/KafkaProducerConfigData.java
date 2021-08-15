@@ -9,11 +9,13 @@ import java.util.List;
 @Configuration
 @ConfigurationProperties(prefix = "kafka-producer-config")
 public class KafkaProducerConfigData {
-    private String bootstrapServers;
-    private String schemaRegistryUrlKey;
-    private String schemaRegistryUrl;
-    private String topicName;
-    private List<String> topicNamesToCreate;
-    private Integer numOfPartitions;
-    private Short replicationFactor;
+    private String keySerializerClass;
+    private String valueSerializerClass;
+    private String compressionType;
+    private String acks;
+    private Integer batchSize;
+    private Integer batchSizeBoostFactor;
+    private Integer lingerMs;
+    private Integer requestTimeoutMs;
+    private Integer retryCount;
 }
