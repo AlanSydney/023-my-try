@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://./../config-server-repository
+    #          default-label: main
+    #          username: ****
+    #          password: ****
+    #          clone-on-start: true
+    fail-fast: true
