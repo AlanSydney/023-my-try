@@ -7,6 +7,13 @@
         <module>config-server</module>
         <module>app-config-data</module>
         <module>common-config</module>
+        <module>twitter-to-kafka-service</module>
+        <module>kafka</module>
+        <module>kafka-admin</module>
+        <module>kafka-model</module>
+        <module>kafka-producer</module>
+        <module>kafaka-admin</module>
+        <module>kafka-admin</module>
     </modules>
 
     <parent>

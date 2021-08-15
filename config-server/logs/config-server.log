@@ -604,3 +604,4 @@ java.lang.IllegalStateException: No directory at file://./../config-server-repos
 2021-08-15 12:08:41 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2021-08-15 12:08:41 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
 2021-08-15 12:08:42 [RMI TCP Connection(4)-127.0.0.1] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not merge remote for master remote: null
+2021-08-15 12:51:07 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
