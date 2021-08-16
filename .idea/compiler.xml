@@ -7,15 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
         <module name="kafka-admin" />
-        <module name="app-config-data" />
         <module name="kafka-model" />
         <module name="kafka-producer" />
         <module name="kafka" />
-        <module name="common-config" />
         <module name="twitter-to-kafka-service" />
+        <module name="config.config-server" />
+        <module name="config.app-config-data" />
         <module name="kafka.kafka-admin" />
+        <module name="config.common-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,9 +29,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="023-my-try" options="" />
-      <module name="app-config-data" options="-parameters" />
-      <module name="common-config" options="-parameters" />
-      <module name="config-server" options="-parameters" />
+      <module name="config.app-config-data" options="-parameters" />
+      <module name="config.common-config" options="-parameters" />
+      <module name="config.config-server" options="-parameters" />
       <module name="kafaka-admin" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="kafka-admin" options="-parameters" />

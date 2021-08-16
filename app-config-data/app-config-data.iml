@@ -45,64 +45,64 @@ under the License.
         </library>
       </orderEntry>
      -->  
-    <output url="file://$MODULE_DIR$/target/classes"/>  
-    <output-test url="file://$MODULE_DIR$/target/test-classes"/>  
-    <orderEntry type="module-library"> 
-      <library> 
+    <output url="file://$MODULE_DIR$/target/classes"/>
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-aop/5.2.9.RELEASE/spring-aop-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry>  
-    <orderEntry type="module-library"> 
-      <library> 
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar:///home/alan/.m2/repository/org/springframework/spring-expression/5.2.9.RELEASE/spring-expression-5.2.9.RELEASE.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry> 
+      </library>
+    </orderEntry>
   </component>  
   <component name="ModuleRootManager"/>  
   <!-- If it's a war project:
