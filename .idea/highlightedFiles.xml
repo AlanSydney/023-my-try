@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
     <files>
-      <node color="5" path="$PROJECT_DIR$/kafka/kafka-admin" />
-      <node color="5" path="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" />
+      <node color="5" path="$PROJECT_DIR$/kafka" />
+      <node color="1" path="$PROJECT_DIR$/pom.xml" />
     </files>
     <colors>
       <color id="1" value="#4f060d" name="Color 1" enabled="true" />

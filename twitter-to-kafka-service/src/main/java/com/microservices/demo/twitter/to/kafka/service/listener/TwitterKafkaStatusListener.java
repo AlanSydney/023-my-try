@@ -10,8 +10,9 @@ import org.springframework.stereotype.Component;
 import twitter4j.Status;
 import twitter4j.StatusAdapter;
 
+@Component
+public class TwitterKafkaStatusListener extends StatusAdapter {
 
-public class TwitterKafkaStatusListener {
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStatusListener.class);
 
     private final KafkaConfigData kafkaConfigData;
